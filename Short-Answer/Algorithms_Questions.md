@@ -40,6 +40,6 @@ Since the Number of floors is like a sorted list i will use a binary search to d
 
 1. First Create a variable to represent the middle floor.
 2. Check if the egg can get broken from the middle floor and if dropping an egg from the floor below it will not break. if so we have found f
-3. Check is the egg is broken or not.
+3. Else:
 4. If the egg gets broken being dropped from the middle floor, we want to discard the top floors and set the new top floor to be the middle.
 5. If the egg doesn't get broken from being dropped at the the middle floor, we want to set the new starting floor to the middle. and keep keep repeating this step until we have found a floor where middle floor minus one doesn't break an egg and middle floor breaks an egg
